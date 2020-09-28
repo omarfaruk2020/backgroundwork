@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{text-decoration: none;}
+a :hover{text-decoration: none;}
+li{list-style: none;}
+.header{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(90deg, rgba(46, 131, 173, 0.3) , rgba(0,168,253,.3)),url(./pexels-jessica-lewis-583846.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+.header ::before{
+  content:  "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background: linear-gradient(to right,(#1e5799 0%, #3ccdbb 0%, #16c9f6 100%,) , );
+  opacity:.2 ;
+  z-index: -1;
+}
+.navbar ::before{
+  content:  "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background: linear-gradient(to right,(#1e5799 0%, #3ccdbb 0%, #16c9f6 100%,) , );
+  opacity:.3 ;
+  z-index: -1;
+}
+.header-section{
+  width: 100% ;
+  position: relative;
+  height: inherit;
+  
+}
+.center-div{
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  margin-top: -4.5rem;
+  
+}
+.headerbutton a{
+  border: 1px solid white;
+  border-radius: 100px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 1rem;
+  
+}
+.headerbutton a{
+  color: rgb(0, 200, 248);
+  background: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.center-div{
+      width: 100%;
+      height: auto;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+  }
+.extra{
+      margin: 3rem;
+  }
+.extra-div:hover{
+      box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.3) ;
+      transform: translateY(-20px);
+      transition: 0.3s all ease;
+  }
+.boss{
+    padding-top: 0.5rem;
+  }
